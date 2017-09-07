@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>OhMyCats !</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <p>OhMyCats !</p>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Adoptez un chat trop bon !</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="leschats" class="row">
+                <div class="col-md-9 col-md-push-3">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/chat_1.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <p>Sushi</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/chat_2.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <p>Maki</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/chat_3.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <p>Sashimi</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/chat_4.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <p>Yakitori</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/chat_5.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <p>Onigri</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-pull-9">
+                    <h2>Les chats à adopter</h2>
+                    <form class="container-fluid">
+                        <div class="form-group">
+                            <label for="choix">Choix du chat</label>
+                            <select id="choix" class="form-control">
+                                <option value="0">- Sélectionnez -</option>
+                                <option value="1">Sushi</option>
+                                <option value="2">Maki</option>
+                                <option value="3">Sashimi</option>
+                                <option value="4">Yakitori</option>
+                                <option value="5">Onigri</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="raison">Raison d'adoption</label>
+                            <textarea id="raison" class="form-control" rows="11" cols="80" placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat..."></textarea>
+                        </div>
+                        <input class="btn btn-success btn-block" type="submit" value="Envoyer">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="noschats">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2>Nos chats à adopter...</h2>
+
+                        <p>Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim, que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis bellis. Ergo ille cumulus dierum hominis est dignitati tributus.</p>
+
+                        <p>Haec igitur prima lex amicitiae sanciatur, ut ab amicis honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit; consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="tete-chat" src="img/tete-chat.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> OhMyCats</p>
+    </footer>
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> <!-- Il faut bien sur avoir au préalable téléchargé le fichier jquery.js dans le même dossier -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

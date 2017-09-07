@@ -1,0 +1,72 @@
+h1, h2, h3{
+    font-family: 'Merienda', cursive;
+}
+
+h2{
+    color: #2F4073;
+}
+
+/************************************** NAVBAR ********************************** */
+nav{
+    background: #061339;
+    }
+    nav p{
+        margin: 0;
+        margin-left: 20px;
+        color: #fff;
+        font-size: 1.5em;
+}
+
+/************************************** ENTETE ********************************** */
+header{
+    background-color: #B9CDFF;
+    background: url(../img/background.jpg);
+    }
+
+h1 {
+    text-shadow: 2em;
+    margin: 0;
+    padding: 7rem 0;
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+}
+
+/************************************** MAIN ***********************************/
+
+#leschats{
+    padding: 40px 0 50px;
+}
+#leschats h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #2F4073;
+}
+
+.item img{
+    width: 100%;
+}
+
+#noschats{
+    background: #dadada;
+}
+
+#noschats img{
+    width: 100%;
+    background-color: #7885A5;
+}
+#noschats img:hover{
+    background-color: #061339;
+}
+
+/************************************** FOOTER  ***********************************/
+footer{
+        background: #061339;
+}
+
+footer p{
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+    padding: 5px 0;
+}
